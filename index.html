@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aguatech - Soluções completas para qualidade e sustentabilidade no uso da água industrial">
+    <title>Aguatech | ETA Industrial</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">💧</span>
+                AGUATECH
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#processo" class="nav-link">Processo</a></li>
+                <li class="nav-item"><a href="#solucoes" class="nav-link">Soluções</a></li>
+                <li class="nav-item"><a href="#beneficios" class="nav-link">Benefícios</a></li>
+                <li class="nav-item"><a href="#setores" class="nav-link">Setores</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link nav-link-cta">Contato</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+                <span class="hamburger"></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-bg"></div>
+        <div class="hero-content container">
+            <h1 class="hero-title">
+                Soluções Completas para Qualidade e Sustentabilidade no Uso da Água
+            </h1>
+            <p class="hero-description">
+                A Estação de Tratamento de Água (ETA) é o sistema responsável por transformar a água bruta em água de qualidade adequada para uso industrial, potável ou para reuso. Na AGUATECH, desenvolvemos projetos de ETA industriais personalizados, com tecnologia moderna, eficiência operacional e automação inteligente.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contato" class="btn btn-primary">Fale Conosco</a>
+                <a href="#processo" class="btn btn-secondary">Saiba Mais</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Rolar para baixo</span>
+            <div class="scroll-indicator"></div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="processo">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Processo</span>
+                <h2 class="section-title">Como Funciona uma ETA: Etapas do Tratamento de Água</h2>
+                <p class="section-description">
+                    O processo de tratamento da água em uma ETA segue etapas físicas e químicas cuidadosamente controladas para garantir qualidade e estabilidade.
+                </p>
+            </div>
+            <div class="process-grid">
+                <div class="process-card" data-step="01">
+                    <div class="process-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2v6m0 0l3-3m-3 3l-3-3M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="process-title">Coagulação</h3>
+                    <p class="process-text">Adição de coagulantes que neutralizam partículas suspensas e facilitam a formação de flocos.</p>
+                </div>
+                <div class="process-card" data-step="02">
+                    <div class="process-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"/>
+                            <circle cx="12" cy="12" r="8"/>
+                        </svg>
+                    </div>
+                    <h3 class="process-title">Floculação</h3>
+                    <p class="process-text">Agitação controlada que promove o agrupamento das partículas em flocos maiores.</p>
+                </div>
+                <div class="process-card" data-step="03">
+                    <div class="process-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 17h18M3 12h18M3 7h18"/>
+                        </svg>
+                    </div>
+                    <h3 class="process-title">Decantação</h3>
+                    <p class="process-text">Sedimentação dos flocos formados, separando as impurezas da água.</p>
+                </div>
+                <div class="process-card" data-step="04">
+                    <div class="process-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z"/>
+                        </svg>
+                    </div>
+                    <h3 class="process-title">Filtração</h3>
+                    <p class="process-text">Passagem da água por camadas filtrantes para reter partículas finas e sólidos residuais.</p>
+                </div>
+                <div class="process-card" data-step="05">
+                    <div class="process-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22c4.97 0 9-2.686 9-6V8c0-3.314-4.03-6-9-6s-9 2.686-9 6v8c0 3.314 4.03 6 9 6z"/>
+                            <path d="M12 8v8"/>
+                        </svg>
+                    </div>
+                    <h3 class="process-title">Desinfecção</h3>
+                    <p class="process-text">Eliminação de microrganismos patogênicos, garantindo segurança microbiológica.</p>
+                </div>
+                <div class="process-card" data-step="06">
+                    <div class="process-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16v16H4z"/>
+                            <path d="M9 9h6v6H9z"/>
+                        </svg>
+                    </div>
+                    <h3 class="process-title">Correção de pH</h3>
+                    <p class="process-text">Ajustes químicos para garantir estabilidade e atender aos parâmetros exigidos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section class="solutions" id="solucoes">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Soluções</span>
+                <h2 class="section-title">Tipos de Estações de Tratamento de Água</h2>
+                <p class="section-description">
+                    A AGUATECH desenvolve diferentes tipos de estações de tratamento de água, adequadas às condições da água bruta, à necessidade de consumo e ao nível de qualidade desejado.
+                </p>
+            </div>
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="solution-number">01</div>
+                    <h3 class="solution-title">ETA Compacta</h3>
+                    <p class="solution-text">Solução modular e de fácil instalação para espaços reduzidos, ideal para pequenas e médias empresas.</p>
+                    <a href="#contato" class="solution-link">Saiba mais <span>→</span></a>
+                </div>
+                <div class="solution-card featured">
+                    <div class="solution-number">02</div>
+                    <h3 class="solution-title">ETA Industrial</h3>
+                    <p class="solution-text">Sistemas robustos de alta capacidade para atender demandas de grandes indústrias com processos contínuos.</p>
+                    <a href="#contato" class="solution-link">Saiba mais <span>→</span></a>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-number">03</div>
+                    <h3 class="solution-title">ETA para Caldeiras</h3>
+                    <p class="solution-text">Tratamento especializado para água de alimentação de caldeiras, prevenindo incrustações e corrosão.</p>
+                    <a href="#contato" class="solution-link">Saiba mais <span>→</span></a>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-number">04</div>
+                    <h3 class="solution-title">ETA Potável</h3>
+                    <p class="solution-text">Sistemas completos para produção de água potável seguindo todas as normas e regulamentações vigentes.</p>
+                    <a href="#contato" class="solution-link">Saiba mais <span>→</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="beneficios">
+        <div class="container">
+            <div class="benefits-content">
+                <div class="benefits-text">
+                    <span class="section-tag">Benefícios</span>
+                    <h2 class="section-title">Por que Investir em uma ETA Industrial?</h2>
+                    <p class="benefits-description">
+                        Implantar uma estação de tratamento de água é uma decisão estratégica para empresas que buscam eficiência operacional, economia e sustentabilidade.
+                    </p>
+                </div>
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                            </svg>
+                        </div>
+                        <div class="benefit-content">
+                            <h4>Redução de Custos</h4>
+                            <p>Menor consumo de água potável e custos de descarte otimizados.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                            </svg>
+                        </div>
+                        <div class="benefit-content">
+                            <h4>Independência</h4>
+                            <p>Menor dependência de fontes externas para abastecimento de água.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
+                                <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
+                                <line x1="9" y1="9" x2="9.01" y2="9"/>
+                                <line x1="15" y1="9" x2="15.01" y2="9"/>
+                            </svg>
+                        </div>
+                        <div class="benefit-content">
+                            <h4>Imagem Sustentável</h4>
+                            <p>Fortalecimento da imagem ambiental e responsabilidade corporativa.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                        </div>
+                        <div class="benefit-content">
+                            <h4>Qualidade Padronizada</h4>
+                            <p>Padronização da qualidade da água utilizada na produção.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sectors Section -->
+    <section class="sectors" id="setores">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Setores</span>
+                <h2 class="section-title">Setores que se Destacam no Uso de ETA</h2>
+            </div>
+            <div class="sectors-grid">
+                <div class="sector-card">
+                    <div class="sector-image">
+                        <div class="sector-overlay"></div>
+                    </div>
+                    <div class="sector-content">
+                        <h3>Química e Petroquímica</h3>
+                        <p>Garantem água purificada para formulações e sistemas de resfriamento.</p>
+                    </div>
+                </div>
+                <div class="sector-card">
+                    <div class="sector-image">
+                        <div class="sector-overlay"></div>
+                    </div>
+                    <div class="sector-content">
+                        <h3>Alimentícia e Bebidas</h3>
+                        <p>Asseguram padrões de qualidade e segurança na produção.</p>
+                    </div>
+                </div>
+                <div class="sector-card">
+                    <div class="sector-image">
+                        <div class="sector-overlay"></div>
+                    </div>
+                    <div class="sector-content">
+                        <h3>Têxtil e Cosmético</h3>
+                        <p>Fornecem água tratada para processos sensíveis de formulação.</p>
+                    </div>
+                </div>
+                <div class="sector-card">
+                    <div class="sector-image">
+                        <div class="sector-overlay"></div>
+                    </div>
+                    <div class="sector-content">
+                        <h3>Metalúrgica e Automotiva</h3>
+                        <p>Previnem corrosão e incrustações em caldeiras e sistemas.</p>
+                    </div>
+                </div>
+                <div class="sector-card">
+                    <div class="sector-image">
+                        <div class="sector-overlay"></div>
+                    </div>
+                    <div class="sector-content">
+                        <h3>Construção e Mineração</h3>
+                        <p>Tratam água para usos operacionais e controle de poeira.</p>
+                    </div>
+                </div>
+                <div class="sector-card">
+                    <div class="sector-image">
+                        <div class="sector-overlay"></div>
+                    </div>
+                    <div class="sector-content">
+                        <h3>Agronegócio</h3>
+                        <p>Fornecem água segura para irrigação, lavagem e processamento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section class="expertise">
+        <div class="container">
+            <div class="expertise-content">
+                <div class="expertise-text">
+                    <span class="section-tag">Nossa Expertise</span>
+                    <h2 class="section-title">Tecnologia e Inovação Aplicadas ao Seu Negócio</h2>
+                    <p>
+                        A AGUATECH é referência em estações de tratamento de água industriais, oferecendo soluções completas que unem engenharia, automação e sustentabilidade.
+                    </p>
+                    <p>
+                        Com experiência multidisciplinar, aplicamos tecnologia de ponta em processos de coagulação, floculação e filtração, além de contar com laboratório próprio e simulações CFD para garantir desempenho e precisão em cada projeto.
+                    </p>
+                    <ul class="expertise-list">
+                        <li>Engenharia especializada</li>
+                        <li>Automação inteligente</li>
+                        <li>Laboratório próprio</li>
+                        <li>Simulações CFD</li>
+                    </ul>
+                </div>
+                <div class="expertise-visual">
+                    <div class="expertise-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="150">0</span>
+                            <span class="stat-label">Projetos Realizados</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="98">0</span>
+                            <span class="stat-suffix">%</span>
+                            <span class="stat-label">Satisfação</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="15">0</span>
+                            <span class="stat-label">Anos de Experiência</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="contato">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Garanta Alta Performance no Tratamento da Sua Água</h2>
+                <p>Entre em contato conosco e descubra como podemos transformar a qualidade da água da sua empresa.</p>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Seu e-mail" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Telefone">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="company" placeholder="Empresa">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Como podemos ajudar?" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <span class="logo-icon">💧</span>
+                        AGUATECH
+                    </a>
+                    <p>Soluções completas para qualidade e sustentabilidade no uso da água industrial.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navegação</h4>
+                        <ul>
+                            <li><a href="#inicio">Início</a></li>
+                            <li><a href="#processo">Processo</a></li>
+                            <li><a href="#solucoes">Soluções</a></li>
+                            <li><a href="#beneficios">Benefícios</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Soluções</h4>
+                        <ul>
+                            <li><a href="#">ETA Compacta</a></li>
+                            <li><a href="#">ETA Industrial</a></li>
+                            <li><a href="#">ETA Caldeiras</a></li>
+                            <li><a href="#">ETA Potável</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contato</h4>
+                        <ul>
+                            <li>contato@aguatech.com.br</li>
+                            <li>(11) 9999-9999</li>
+                            <li>São Paulo, SP</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Aguatech. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
